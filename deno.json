@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+
+
+    "name": "@insu-qg/mots",
+    "version": "0.1.1",
+    "license": "MIT",
+    "exports": "./mots.ts",
+    "readme": "./README.md"
+
+
+}
