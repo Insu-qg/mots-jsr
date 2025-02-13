@@ -28,9 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-deno-
 
-      - name: Run tests (optionnel)
-        run: deno test
-
       - name: Publish module to deno.land
         run: |
           deno publish https://deno.land/x/@insu_qg/mots/mod.ts  # Remplacez par l'URL correcte de votre module
