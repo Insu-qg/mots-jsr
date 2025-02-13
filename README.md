@@ -61,27 +61,27 @@ Ce fichier exporte des fonctions pour compter divers choses dans un string.
 +  * @module
 +  */
   
+  + /** renvoie le nombre de mots d'une chaine de caractère */
   export function nbMots(str:string): number {
-  // renvoie le nombre de mots d'une chaine de caractère
 }
 
+  + /** renvoie le nombre de phrases d'une chaine de caractère */
 export function nbPhrases(str:string): number {
-  // renvoie le nombre de phrases d'une chaine de caractère
 }
 
+  + /**  renvoie le nombre de lettres d'une chaine de caractère */
 export function nbLettres(str: string): number {
-  // renvoie le nombre de lettres d'une chaine de caractère
 }
 
+  + /** renvoie le nombre de répétitions de mots d'une chaine de caractère */
 export function nbRepetionsMots(str:string): number {
-  // renvoie le nombre de répétitions de mots d'une chaine de caractère
 }
 
+ + /** renvoie le nombre de répétitions de lettres d'une chaine de caractère */
 export function nbRepetionsLettres(str:string): number {
-  // renvoie le nombre de répétitions de lettres d'une chaine de caractère
 }
 
++ /** renvoie le nombre de répétitions de symboles d'une chaine de caractère */
 export function nbRépetitionsSymbole(str: string): number {
-  // renvoie le nombre de répétitions de symboles d'une chaine de caractère
 }
 
